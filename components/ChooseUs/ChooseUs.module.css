@@ -1,0 +1,229 @@
+.choose-us{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-ls{
+    width: 38%;
+}
+.left-side p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+}
+.numeric-details{
+    display: flex;
+    justify-content: space-between;
+}
+.numeric-section{
+    width: 31%;
+    text-align: center;
+    margin: 35px 0px;
+}
+.num p{
+    padding: 0px;
+    font-family: 'Oswald';
+    font-size: 67px;
+    font-weight: 400;
+    margin:0px auto;
+    color: #ffffff;
+}
+.num-detail{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    margin: 0px;
+}
+.choose-rs{
+    position: relative;
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.choose-rs::after{
+    /* background-image: url(../images/dot-img.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    width: 29%;
+    height: 15%;
+    position: absolute;
+    bottom: 181px;
+    left: 44px;
+    z-index: 0;
+}
+.choose-rs::before{
+    background-color: #141414;
+    position: absolute;
+    content: '';
+    z-index: 1;
+    width: 88%;
+    height: 686px;
+    left: 117px;
+}
+.choose-rs-ls{
+    width: 50%;
+    z-index: 2;
+}
+.feature-box{
+    border: 1px solid #FFC046;
+    border-radius: 15px;
+    background-color: #060606;
+    margin: 30px auto;
+    width: 89%;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+.feature-contt{
+    padding: 28px;
+    position: relative;
+    z-index: 2;
+}
+.feature-contt p{
+    color: #ffffff;
+}
+.crossfit img{
+    border-radius: 15px;
+    border: 1px solid #FFC046;
+    width: 100%;
+}
+.feature-heading h2{
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+    color: #ffffff;
+    padding: 16px 0;
+}
+.feature-heading p{
+    color: #ffffff;
+}
+.crossfit{
+    width: 89%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+.crossfit h2{
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+    color: #ffffff;
+}
+.crossfit img{
+    border-radius: 15px;
+    border: 1px solid #FFC046;
+    width: 100%;
+}
+.choose-sec{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.color-yellow{
+    color: #FFC046;
+}
+.color-black{
+    color: #000;
+}
+.width25{
+    width: 25%;
+}
+.width30{
+    width: 30%;
+}
+.width35{
+    width: 35%;
+}
+.width33{
+    width: 33.3%;
+}
+.width45{
+    width: 45%;
+}
+.center-text{
+    text-align: center;
+}
+.flex-jst{
+    display: flex;
+    justify-content: space-between;
+}
+.width-80{
+    width: 80%;
+}
+.margin100{
+    margin: 100px 0px;
+}
+.margin50{
+    margin: 50px 0px;
+}
+.margin25{
+    margin: 25px 0px;
+}
+.width-70{
+    width: 70%;
+}
+.d-button{
+    margin: 50px 0px ;
+}
+.blk-button{
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color:#060606 ;
+    border: 1px solid #060606;
+    text-decoration: none;
+}
+.blk-button:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: 0.4s;
+}
+.main-button{
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color:rgba(255, 99, 71, 0) ;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+.main-button:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: 0.4s;
+}
+.center-heading h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color:  #ffffff; 
+    text-align: center;
+}
+.all-products-b{
+    margin: 25px auto;
+    display: table;
+}
+#overlay {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.text-centr{
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+.left-heading h1{
+    font-family: 'Oswald';
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.left-heading h2{
+    font-family: 'Oswald';
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px;
+}

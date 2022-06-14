@@ -1,0 +1,89 @@
+.clientSec{
+    margin: 60px auto 0;
+    max-width: 1200px;
+}
+.center-heading h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0 49px;
+}
+.center-heading span{
+    color: #FFC046;
+}
+
+.test-blk{
+    position: relative;
+    z-index: 0;
+}
+.test-blk::after{
+    background-color: #141414;
+    content: '';
+    position: absolute;
+    width: 62%;
+    height: 462px;
+    right: -73px;
+    top: -30px;
+    z-index: -1;
+}
+.test-blk::before{
+    background-image: url("../../assets/images/icons/quato-mark.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    left: 0px;
+    top: -39px;
+    z-index: 1;
+}
+.test-contt{
+    display: flex;
+    justify-content: center;
+}
+.client-pic{
+    width: 40%;
+}
+.client-pic img{
+    width: 100%;
+}
+.client-content{
+    width: 35%;
+    margin: 0px 35px;
+}
+.client-content {
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+}
+.client-content p{
+    margin: 0px;
+    color: #ffffff;
+}
+.client-content::after{
+    content: '';
+    background-image: url("../../assets/images/dot-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+    height: 33%;
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    bottom: 0px;
+}
+.client-name{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFC046;
+}
+.client-d{
+    margin: 35px 0px;
+}
+.client-d p{
+    margin: 0px;
+}

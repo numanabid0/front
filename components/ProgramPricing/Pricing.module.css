@@ -1,0 +1,129 @@
+.pricingSec{
+    margin: 0 auto;
+    max-width: 1259px;
+}
+.pricing-section h1{
+    color: #fff;
+    text-align: center;
+}
+.pricing-section h1 span{
+    color: #FFC046;
+}
+.pricing-main{
+    display: flex;
+    align-items: center;
+    height: 550px;
+    position: relative;
+    z-index: 0;
+}
+.pricing-main::before{
+    content: '';
+    background-image: url("../../assets/images/dot-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 21.5%;
+    height: 43%;
+    z-index: 1;
+    left: -11px;
+    bottom: -25px;
+}
+.pricing-main::after{
+    content: '';
+    background-image: url("../../assets/images/dot-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 21.5%;
+    height: 43%;
+    z-index: 1;
+    right: -11px;
+    top: -25px;
+}
+.pricing-box-1{
+    width: 33.3%;
+    position: relative;
+    z-index: 2;
+}
+.pricing-box{
+    background-color: #0C0C0C;
+    border: 1px solid #FFC046;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0px auto;
+    width: 70%;
+}
+.pricing-box p,
+.pricing-box h3,
+.pricing-box li{
+    color: #fff;
+}
+.price-facility{
+    height: 200px;
+    transition: 0.4s;
+}
+.price-facility p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 5px;
+}
+.del-reg-fee{
+    font-size: 14px;
+    font-weight: 300;
+    color: #676767;
+}
+.price-sum p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+    transition: 0.4s;
+}
+.price-sum h3{
+    font-family: 'Oswald';
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0px;
+    transition: 0.4s;
+}
+.price-fac li{
+    list-style-image: url("../../assets/images/icons/pp-facilities.png");
+    padding: 10px 0px;
+}
+.price-fac{
+    margin: 20px 22px;
+    padding: 0px;
+}
+.consultation-btn{
+    margin: 10px auto;
+    display: grid;
+}
+/* --------------------------------pricing plan (hover)-------------------------------- */
+.pricing-box{
+    transform: unset;
+    transition: 0.4s;
+}
+.pricing-box:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.pricing-box:hover .del-reg-fee{
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.4s;
+}
+.pricing-box:hover .price-sum h3{
+    font-size: 58px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.main-button{
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color: rgba(255, 99, 71, 0);
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+.main-button:hover{
+    color: #ffffff;
+}

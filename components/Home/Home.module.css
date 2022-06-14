@@ -1,0 +1,166 @@
+.header{
+    background-image: url("../../assets/images/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+    padding: 0px 50px;
+    position: relative;
+}
+.product-header{
+    background-image: url("../../assets/images/product-banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px 50px;
+}
+.flex-contt{
+    display: flex;
+}
+.producthead-content{
+    width: 50%;
+    margin: 52px auto;
+}
+.producthead-content h2{
+    color: white;
+    font-family: 'Oswald';
+    font-size: 65px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+.producthead-content img{
+    width: 100%;
+}
+
+.head-content h1{
+    color: #ffffff;
+    -webkit-text-fill-color: rgba(255, 99, 71, 0);
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 73px;
+    font-family: 'Oswald';
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.head-content h2{
+    color: white;
+    font-size: 73px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.head-content{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: fit-content;
+}
+.head-content p{
+    font-size: 16px;  
+    font-weight: 300;
+    color: #ffffff;
+}
+/* --------------------------------General classes-------------------------------- */
+.color-yellow{
+    color: #FFC046;
+}
+.color-black{
+    color: #000;
+}
+.width25{
+    width: 25%;
+}
+.width30{
+    width: 30%;
+}
+.width35{
+    width: 35%;
+}
+.width33{
+    width: 33.3%;
+}
+.width45{
+    width: 45%;
+}
+.center-text{
+    text-align: center;
+}
+.flex-jst{
+    display: flex;
+    justify-content: space-between;
+}
+.width-80{
+    width: 80%;
+}
+.margin100{
+    margin: 100px 0px;
+}
+.margin50{
+    margin: 50px 0px;
+}
+.margin25{
+    margin: 25px 0px;
+}
+.width-70{
+    width: 70%;
+}
+.d-button{
+    margin: 50px 0px ;
+}
+.blk-button{
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color:#060606 ;
+    border: 1px solid #060606;
+    text-decoration: none;
+}
+.blk-button:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: 0.4s;
+}
+.main-button{
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color:rgba(255, 99, 71, 0) ;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+.main-button:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: 0.4s;
+}
+.center-heading h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color:  #ffffff; 
+    text-align: center;
+}
+.all-products-b{
+    margin: 25px auto;
+    display: table;
+}
+#overlay {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.text-centr{
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+.left-heading h1{
+    font-family: 'Oswald';
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.left-heading h2{
+    font-family: 'Oswald';
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px;
+}

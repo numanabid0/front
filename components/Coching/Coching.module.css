@@ -1,0 +1,63 @@
+.cochingSec{
+    margin: 66px auto;
+    max-width: 1200px;
+}
+
+.center-heading h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: #ffffff;
+    text-align: center;
+}
+.center-heading span{
+    color: #FFC046;
+}
+.text-centr p{
+    color: #ffffff;
+    margin: 21px auto 0;
+    max-width: 600px;
+    text-align: center;
+}
+.coach-blk{
+    display: flex;
+    margin: 100px 0px;
+    justify-content: space-between;
+}
+.coach-contt{
+    text-align: center;
+    width: 22%;
+}
+.coach-pic{
+    width: 100%;
+}
+.coach-pic img{
+    filter: grayscale(100%);
+    width: 100%;
+}
+.coach-name{
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px;
+    color: #858585;
+}
+.coach-title{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px;
+    color: #858585;
+}
+/* -----coaches detail----- */
+.coach-contt:hover img{
+    filter: grayscale(0%);
+    transition: 0.4s;
+}
+.coach-contt:hover .coach-name{
+    color: #FFC046;
+    transition: 0.4s;
+}
+.coach-contt:hover .coach-title{
+    color: #ffffff;
+    transition: 0.4s;
+}
